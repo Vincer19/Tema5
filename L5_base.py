@@ -283,7 +283,7 @@ def simulacion_web(lambda_0, nu_0, P_0):
 
 
 # Se hace un for que recorra 25 veces la funcion de simulacion con lamda = 2 y nu = i*0.01 donde el i aumenta por el for y con un p igual a 1 
-# de esta manera se puede ver desde cuales valores de v no se cumple lo pedido y cuales si.
+# de esta manera se puede ver desde cuales valores de v no se cumple lo pedido y cuales si, la inecuacion se cumple segun la condicion dada.
 for i in range(1,25,1):
     simulacion_web(2, i*0.1, 1)
     
